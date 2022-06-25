@@ -1,106 +1,78 @@
 'use strict';
 
-// С четными числами
-
-// const func = (array) => {
-//    const newArr = [];
-//    for(let i = 0; i < array.length; i++) {
-//       if (array[i] % 2 === 0) {
-//          newArr.push(array[i]);
-//       }
-//    }
-//       return newArr;
+// const  func = (a, b) => {
+//    return a ** b;
 // }
 
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(func(2, 3));
+
+// const arr = ['Grozny','Moscow','NewYork','Germunchuk'];
+
+// const newArr = [];
+
+// for(let i = 0; i < arr.length; i++) {
+//    if (arr[i].length % 2 === 0) {
+//       newArr.push(arr[i]);
+//    }
+// }
+
+// console.log(newArr);
+
+// const arr = [1, 21, 3, 4, 5];
+
+// let result = 0;
+
+// for(let i = 0; i < arr.length; i++) {
+//    if (arr[i] > result) {
+//       result = arr[i];
+//    }
+// }
+
+// console.log(result);
+
+
+// const func = (array, number) => {
+//    for(let i = 0; i < array.length; i++) {
+//       if (array[i] == number) {
+//          return true;
+//       }
+//    }
+// } 
+
+// const arr = [1, 2, 3, 4, 5];
+
+// console.log(func(arr, 6));
+ 
+// const func = (array) => {
+//    for(let i = 0; i < array.length; i++) {
+//       if (array[i] > 0 && array[i] % 2 === 0) {
+//           newArr.push(array[i]);
+//       }
+//    }
+
+//    return newArr;
+// }
+
+// const arr = [-1, 2, -3, 4, -5, 6];
+
+// const newArr = [];
 
 // console.log(func(arr));
 
-// С нечетными числами 
+// Напишите функцию, которая принимает два аргумента - массив слов и число, а возвращает новый массив со словами, длина которых равна второму второму аргументу
+//   ["Олень", "Сосна", "Грибы", "Береза", "Медведь"], 6 -> ['Береза]
 
-// const func = (array) => {
-//    const newArr = [];
+// const arr =  ["Олень", "Сосна", "Грибы", "Береза", "Медведь"];
 
+// const newArr = [];
+
+// const func = (array, number) => {
 //    for(let i = 0; i < array.length; i++) {
-//       if (array[i] % 2 !== 0) {
-//          newArr.push(arr[i]);
+//       if (array[i].length === number) {
+//          newArr.push(array[i]);     
 //       }
 //    }
 //    return newArr;
 // }
 
-// const arr = [1, 2, 3, 4, 5, 6, 7];
-
-// console.log(func(arr));
-
-// С положительными числами 
-
-// const func = (array) => {
-//    const newArr = [];
-
-//    for(let i = 0; i < array.length; i++) {
-//       if (array[i] > 0) {
-//          newArr.push(array[i])
-//       }
-//    }
-//    return newArr;
-// }
-
-// const arr = [1, -1, -4, 5];
-
-// console.log(func(arr));
-
-
-// С отрицательными числами
-
-// const func = (array) => {
-//    const newArr = [];
-
-//    for(let i = 0; i < array.length; i++) {
-//       if (array[i] < 0) {
-//          newArr.push(array[i])
-//       }
-//    }
-//    return newArr;
-// }
-
-// const arr = [1, -2, -4, 5, -10];
-
-// console.log(func(arr));
-
-
-// Со словами, длина которых больше 5 букв
-
-// const func = (array) => {
-//    const newArr = [];
-
-//    for(let i = 0; i < arr.length; i++) {
-//       if (array[i].length > 5) {
-//          newArr.push(array[i]);
-//       }
-//    }
-//    return newArr;
-// }
-
-// const arr = ['aaaaaaaa', 'bbb', 'gggggggg'];
-
-// console.log(func(arr));
-
-
-
-// Со словами, длина которых равняется 5 буквам
-
-const func = (array) => {
-   const newArr = [];
-
-   for(let i = 0; i < array.length; i++) {
-      if (array[i].length == 5) {
-         newArr.push(array[i]);
-      }
-   }
-   return newArr;
-}
-
-const arr = ['aaaaa', 'fff', 'eeeee', 'hhhh'];
-
-console.log(func(arr));
+// console.log(func(arr, 5));
