@@ -1,43 +1,80 @@
 'use strict';
 
-// const func = (word) => {
+// const arr = [1,-2, 3, -4, 5];
 
-//    let str = '';
+// let sum = 0;
 
-//    for(let i = word.length -1; i > 0; i--) {
-//       str += word[i]; 
+// const func = (array) => {
+//    for(let i = 0; i < array.length; i++) {
+//       if (array[i] > 0) {
+//          sum += array[i];     
+//       }
 //    }
 
-//    return str;
+//    return sum;
 // }
 
-// func('Hello');
+// func(arr);
 
-// const func = (number) => {
-//    if (number > 0) {
-//       return `-${number}`;
+// const func = (word, count) => {
+//    return word.repeat(count);
+// }
+
+// func('askhab', 2);
+
+// const arr = [1, 2, 3, 4, 5];
+
+// const arr2 = [1, 2, 3, 4, 5];
+
+// let sum1 = 0;
+
+// let sum2 = 0;
+
+// for(let i = 0; i < arr.length; i++) {
+//    sum1 += arr[i];
+// }
+
+// for(let i = 0; i < arr2.length; i++) {
+//    sum2 += arr2[i];
+// }
+
+// const func = (first, second) => {
+//    if (first === second) {
+//       return true;
+//    } else {
+//       return false;
 //    }
-// }
+// } 
 
-// func(3);
+// console.log(func(sum1, sum2));
 
-// const arr = ['askhab', 'lg', 'lg', 'abdurah'];
+// const arr = ['aaaaa', 'bbbb', 'ccccc', 'tttttt'];
 
 // const newArr = [];
 
+// const func = (array, numb) => {
+//    for(let i = 0; i < array.length; i++) {
+//       if (array[i].length === numb) {
+//          newArr.push(array[i]);
+//       }
+//    }
+   
+//    return newArr;
+// }
 
-// for(let i = 0; i < arr.length; i++) {
-//    if (arr[i] !== 'lg') {
-//       newArr.push(arr[i]);
+// func(arr, 5);
+
+// const arr = [1, 2, 3, 4, 5];
+
+// const newArr = [];
+
+// const func = (array) => {
+//    for(let i = 0; i < array.length; i++) {
+   
+//       if (newArr[i]) {
+         
+//       }
 //    }
 // }
 
-// console.log(newArr);
-
-
-
-// const func = (lastname, name, otch) => {
-//    return `${lastname} ${name} ${otch[0]}.`;
-// }
-
-// console.log(func('Edilbiev', 'Abdurakhman', 'Abumuslimovich'));
+// func(arr);
