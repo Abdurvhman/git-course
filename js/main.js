@@ -1,80 +1,29 @@
 'use strict';
 
-// const arr = [1,-2, 3, -4, 5];
+const arr = [1, 2, 3, 4, 5];
 
-// let sum = 0;
+const newArr = [];
 
-// const func = (array) => {
-//    for(let i = 0; i < array.length; i++) {
-//       if (array[i] > 0) {
-//          sum += array[i];     
-//       }
-//    }
+let min = arr[0];
 
-//    return sum;
-// }
+let max = 0;
 
-// func(arr);
+const func = (array) => {
+   for(let i = 0; i < array.length; i++) {
+      if (array[i] < min) {
+         min = array[i];
+      } 
+   }
 
-// const func = (word, count) => {
-//    return word.repeat(count);
-// }
+   for(let i = 0; i < array.length; i++) {
+      if (max < array[i]) {
+         max = array[i];
+      }
+   }
 
-// func('askhab', 2);
+   newArr.push(min, max)
 
-// const arr = [1, 2, 3, 4, 5];
+   return newArr;
+}
 
-// const arr2 = [1, 2, 3, 4, 5];
-
-// let sum1 = 0;
-
-// let sum2 = 0;
-
-// for(let i = 0; i < arr.length; i++) {
-//    sum1 += arr[i];
-// }
-
-// for(let i = 0; i < arr2.length; i++) {
-//    sum2 += arr2[i];
-// }
-
-// const func = (first, second) => {
-//    if (first === second) {
-//       return true;
-//    } else {
-//       return false;
-//    }
-// } 
-
-// console.log(func(sum1, sum2));
-
-// const arr = ['aaaaa', 'bbbb', 'ccccc', 'tttttt'];
-
-// const newArr = [];
-
-// const func = (array, numb) => {
-//    for(let i = 0; i < array.length; i++) {
-//       if (array[i].length === numb) {
-//          newArr.push(array[i]);
-//       }
-//    }
-   
-//    return newArr;
-// }
-
-// func(arr, 5);
-
-// const arr = [1, 2, 3, 4, 5];
-
-// const newArr = [];
-
-// const func = (array) => {
-//    for(let i = 0; i < array.length; i++) {
-   
-//       if (newArr[i]) {
-         
-//       }
-//    }
-// }
-
-// func(arr);
+console.log(func(arr));
