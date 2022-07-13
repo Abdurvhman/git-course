@@ -1,29 +1,23 @@
 'use strict';
 
-const arr = [1, 2, 3, 4, 5];
+// Задача с первыми цифрами в числе
 
-const newArr = [];
+// const arr = [10, 20, 15, 24, 31];
 
-let min = arr[0];
+// for(let i = 0; i < arr.length; i++) {
 
-let max = 0;
+//    let str = arr[i].toString();
 
-const func = (array) => {
-   for(let i = 0; i < array.length; i++) {
-      if (array[i] < min) {
-         min = array[i];
-      } 
+//    if (str[0] == 1 || str[0] == 2) {
+//       console.log(str);      
+//    }
+// }
+
+
+const arr = ['aa', 'aa', 'b', 'c'];
+
+for(let i = 0; i < arr.length; i++) {
+   if (arr[i] != 'aa') {
+      console.log(arr[i]);
    }
-
-   for(let i = 0; i < array.length; i++) {
-      if (max < array[i]) {
-         max = array[i];
-      }
-   }
-
-   newArr.push(min, max)
-
-   return newArr;
 }
-
-console.log(func(arr));
