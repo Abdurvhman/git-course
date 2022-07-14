@@ -14,7 +14,7 @@
 // }
 
 
-const arr = ['aa', 'aa', 'b', 'c'];
+const arrrrrr = ['aa', 'aa', 'b', 'c'];
 
 for(let i = 0; i < arr.length; i++) {
    if (arr[i] != 'aa') {
